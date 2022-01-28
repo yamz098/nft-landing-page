@@ -5,14 +5,14 @@
 /* GLOBAL STYLES */
 
 :root {
-  --font-primary: 'Poppins', sans-serif;
-  --font-secondary: 'Arvo', serif;
-  --font-code: 'Roboto', monospace;
-  --bg-color: #00163f;
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Arvo", serif;
+  --font-code: "Roboto", monospace;
+  --bg-color: #000000;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
-  --header-shadow: #000 0px 0px 5px;
+  --accent-color: #f0530a;
+  --header-shadow: rgb(252, 252, 252) 0px 0px 5px;
 }
 
 * {
@@ -105,7 +105,7 @@ section {
 
 .countdown ul {
   display: flex;
-  gap: 2rem
+  gap: 2rem;
 }
 .countdown .clock-item {
   list-style: none;
@@ -169,4 +169,3 @@ section {
     font-size: 1rem;
   }
 }
- 
